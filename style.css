@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+    position: relative;
+    top: 50px;
+    left: 35vh;
+}
+.navigation ul {
+  display: flex;
+  position: relative;
+  left: 110vh;
+  top: 20px;
+}
+.navigation ul li{
+    list-style-type: none;
+}
+.navigation ul li a{
+    text-decoration: none;
+    padding: 23px;
+    color: gray;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    position: relative;
+    top: 50px;
+    left: 22vh;
+}
+.box img{
+    position: relative;
+    left: 100px;
+    width: 85vh;
+    height: 34vh;
+}
+.rect{
+    background: rgb(6, 10, 27);
+    width: 42vh;
+    height: 58vh;
+    position: relative;
+    right: 15vh;
+}
+.new{
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+.ne{
+    color: rgb(170, 170, 29);
+    font-size: 40px;
+}
+h3,p{
+    color: white;
+}
+.combine h3{
+    font-size: 23px;
+}
+.combine p{
+    font-size: 13px;
+    word-spacing: 5px;
+}
+.combine{
+    position: relative;
+    top: 15px;
+}
+.wrapper .rect .line{
+    color: #fff;
+    position: relative;
+    top: 60px;
+    left: 25px;
+    margin-right: 60px;
+}
+.down{
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.down h3{
+    font-size: 23px;
+}
+.down p{
+    font-size: 13px;
+    word-spacing: 5px;
+}
+.line{
+    position: relative;
+    top: 60px;
+}
+.wrapper .rect .lines{
+    color: #fff;
+    position: relative;
+    top: 90px;
+    left: 25px;
+    margin-right: 60px;
+}
+.fund{
+    position: relative;
+    top: 12vh;
+    left: 25px;
+}
+.fund h3{
+    font-size: 23px;
+}
+.fund p{
+    font-size: 13px;
+    word-spacing: 5px;
+}
+.bright h1{
+    position: relative;
+    left: 100px;
+    bottom: 20vh;
+    font-size: 50px;
+    font-weight: 600;
+    width: 18rem;
+}
+.dive p{
+    position: relative;
+    color: grey;
+    align-items: center;
+    bottom: 40vh;
+    width: 19rem;
+    left: 31rem;
+}
+.bright button{
+    position: relative;
+    background: rgb(208, 86, 86);
+    color: white;
+    font-size: 11px;
+    letter-spacing: 4px;
+    width: 9rem;
+    height: 39px;
+    border: none;
+    bottom: 34vh;
+    left: 59vh;
+}
+.revive{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 77rem;
+}
+.reviving img{
+    position: relative;
+    left: 19rem;
+    bottom: 15vh;
+    width: 100px;
+    height: 130px;
+}
+.reviving .part{
+    position: relative;
+    bottom: 30vh;
+    left: 27rem;
+    width: 190px;
+    line-height: 30px;
+}
+.part h1{
+    color: gray;
+    font-size: 35px;
+}
+.part h3{
+    color: black;
+    font-size: px;
+    font-weight: 700;
+}
+.part p{
+    color: grey;
+}
